@@ -57,7 +57,7 @@ body {
 	margin-bottom: 0px;
 }
 
-.mid-sections , .gallery, .contact{
+.mid-sections , .gallery, .contact, .map{
 	background-color: rgb(242, 242, 242);
 	margin: 0px 130px 0 130px;
 }
@@ -116,6 +116,7 @@ body {
 }
 .gallery-link h2 {
 	text-align: center;
+
 }
 
 .contact {
@@ -162,4 +163,10 @@ form button {
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 	font-weight: 550;
+}
+
+footer p {
+	font-weight: 550;
+	text-align: center;
+	padding: 20px 0 20px 0;
 }
