@@ -45,12 +45,19 @@ body {
 .top-nav ul li a {
 	text-decoration: none;
 	color: rgb(0 0 0);
-
+	transition: trasition 1s;
 }
 
 .top-nav ul li a:hover {
-	border-bottom: 1px solid black;
-	font-wight: 600;
+	border-bottom: 1.5px solid black;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+.top-nav ul li a:active {
+	border-bottom: 1.5px solid black;
+	font-weight: 600;
+	padding-bottom: 10px;
 }
 
 .mid-bg img {
