@@ -39,7 +39,7 @@ body {
 .top-nav ul li {
 	list-style: none;
 	display: inline;
-	padding-left: 25px;
+	padding-left: 4%;
 }
 
 .top-nav ul li a {
@@ -64,7 +64,7 @@ body {
 	margin-top: 15px;
 	max-width: 100%;
 	width: auto;
-	margin-bottom: 0px;
+	margin-bottom: -4px;
 }
 
 .mid-sections , .gallery, .contact, .map{
@@ -80,6 +80,7 @@ body {
 
 .artist {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .artist_image img {
@@ -88,7 +89,23 @@ body {
 	box-shadow: 3px 3px rgb(136, 136, 134);
 }
 .artist_image {
-	padding: 0 50px 50px 50px;
+	padding: 0 10px 50px 50px;
+	flex: 1;
+}
+
+.message {
+	flex: 2;
+	padding: 25px 30px 0 0;
+}
+
+.message>p {
+	line-height: 1.5;
+	letter-spacing: 1.3px;
+}
+
+.message>p>span {
+	font-weight: 500;
+	font-size: 18px;
 }
 
 .gallery {
