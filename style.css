@@ -15,28 +15,31 @@ body {
 	padding: 0;
 }
 
-#logo {
-	font-size: 2em;
-	font-weight: 500;
-	margin:0 0 0 150px;
-	flex: 1;
-}
-
 .intro {
 	display: flex;
 	margin-top: 5px;
+}
+
+#logo {
+	font-size: 2em;
+	font-weight: 500;
+	margin:0 0 0 12%;
+	flex: 1;
+	vertical-align: middle;
+}
+
+.top-nav {
+	flex: 2;
+	text-align: right;
+	margin:10px 14% 0 0;
+	display: inline-block;
+	
 }
 
 .top-nav ul li {
 	list-style: none;
 	display: inline;
 	padding-left: 25px;
-}
-
-.top-nav {
-	flex: 2;
-	text-align: right;
-	margin:10px 150px 0 0;
 }
 
 .top-nav ul li a {
